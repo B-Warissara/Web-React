@@ -1,16 +1,6 @@
 import React from "react"
-import MsgBox from "./class-prop"
+import MessageBox from "./state-func"
 
-function App() {
-  return (
-   <MsgBox
-      text="React & React Native"
-      color="blue"
-      bgColor="#ccc"
-      fontSize="18pt"
-      border="solid 1 px black"
-   />
-  )
+export default function App() {
+  return <MessageBox/>
 }
-
-export default App;
