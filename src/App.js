@@ -1,7 +1,8 @@
 import React from "react"
-import FormBootstrap from "./form-bootstrap"
+import FormCheck from "./form-check"
+
 
 
 export default function App() {
-  return <FormBootstrap/>
+  return <FormCheck/>
 }
